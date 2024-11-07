@@ -2,7 +2,7 @@ FROM alpine:latest
 
 # Environment Variables
 ENV RELEASE_DOWNLOAD "https://github.com/0chasew0/Canaan-Server/releases/latest/download/Linux.zip"
-
+ENV GODOT_VERSION "4.3"
 # Updates and installs to the server
 RUN apk update
 RUN apk add --no-cache bash
