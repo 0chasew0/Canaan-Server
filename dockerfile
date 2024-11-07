@@ -26,3 +26,5 @@ WORKDIR /godotapp
 RUN wget ${RELEASE_DOWNLOAD} \
     && unzip Linux.zip
 CMD godot --main-pack *.pck
+
+EXPOSE 9009
